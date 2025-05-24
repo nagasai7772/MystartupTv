@@ -820,7 +820,7 @@ const errorMessage=document.getElementById('error-message')
 
     // Submit data to the backend
     try {
-      const response = await fetch('http://localhost:4000/submit', {
+      const response = await fetch('https://mystartupbackend.onrender.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
